@@ -39,7 +39,7 @@ while True:
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
 ```
-### OUPUT
+### OUTPUT:
 ### Client Output:
 ![ex2 b client](https://github.com/SUBBIAH1904/2b_SLIDING_WINDOW_PROTOCOL/assets/147473604/f179f925-f406-4648-9351-a171b8872b19)
 ### Server Output:
